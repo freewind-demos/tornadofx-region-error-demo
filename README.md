@@ -1,5 +1,5 @@
-Kotlin TornadoFx (JavaFx) Demo
-===============================
+TornadoFx Hello World Demo
+==========================
 
 A simple "Hello world" demo for TornadoFX.
 
