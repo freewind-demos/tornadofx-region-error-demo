@@ -25,3 +25,12 @@ Run in your IDE:
 
 - `JavaHello.java`: The JavaFX version
 - `KotlinHello.kt`: The TornadoFx version
+
+Update
+------
+
+Finally, @bekwam found the real cause, it's a bug of JavaFX, not tornadorFX.
+
+The reason why the Java version has no error, is `new Scene(root, 400, 200)` has a width and height, which avoid the error.
+
+See <https://github.com/edvin/tornadofx/issues/778> for more details.
